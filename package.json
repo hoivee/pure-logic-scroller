@@ -1,0 +1,42 @@
+{
+  "name": "pure-logic-scroller",
+  "version": "0.1.0",
+  "description": "a simple pure logic scroller",
+  "scripts": {
+    "build": "rollup -w --config rollup.config.js",
+    "prepublishOnly": "npm run build",
+    "dev": "rollup -w --config rollup.config.js"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.3.3",
+    "@typescript-eslint/parser": "^2.3.3",
+    "eslint": "^6.5.1",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-config-standard-with-typescript": "^10.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "rollup": "^1.27.2",
+    "rollup-plugin-eslint": "^7.0.0",
+    "rollup-plugin-typescript2": "^0.24.3",
+    "typescript": "^3.6.3"
+  },
+  "eslintIgnore": [
+    "*.js"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.es.js",
+  "typings": "./dist/types/index.d.ts",
+  "author": "hoivee",
+  "keywords": [
+    "scroll",
+    "scroller",
+    "Scrolling"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hoivee/pure-logic-scroller/issues"
+  },
+  "homepage": "https://github.com/hoivee/pure-logic-scroller"
+}

@@ -1,0 +1,15 @@
+example/
+src/
+.idea/
+.github/
+.DS_Store
+.npmignore
+.editorconfig
+.gitignore
+.eslintrc.js
+rollup.config.js
+.tsconfig.json
+.tsconfig.eslint.json
+package-lock.json
+
+
