@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "a simple pure logic scroller",
   "scripts": {
-    "build": "rollup -w --config rollup.config.js",
+    "build": "rollup --config rollup.config.js",
     "prepublishOnly": "npm run build",
     "dev": "rollup -w --config rollup.config.js"
   },
