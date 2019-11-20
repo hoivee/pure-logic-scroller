@@ -1,6 +1,7 @@
 // rollup.config.js
 import path from 'path'
 import babel from 'rollup-plugin-babel'
+import resolve from 'rollup-plugin-node-resolve'
 
 export default {
   input: path.resolve(__dirname, './index.js'),
@@ -10,6 +11,7 @@ export default {
     name: 'CustomScroller',
   },
   plugins: [
+    resolve(),
     babel({
       plugins: ['@babel/plugin-transform-runtime', '@babel/plugin-external-helpers'],
       presets: [

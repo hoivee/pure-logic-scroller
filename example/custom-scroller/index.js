@@ -1,4 +1,4 @@
-import {ScrollerCore, RequestAnimationFrameRender} from '../../dist/index.es.js'
+import {ScrollerCore, RequestAnimationFrameRender} from 'pure-logic-scroller'
 
 const MOVE_START_EVENT = ['touchstart', 'mousedown']
 const MOVE_EVENT = ['touchmove', 'mousemove']
