@@ -26,6 +26,11 @@
     return Constructor;
   }
 
+  /*!
+   * pure-logic-scroller.js v0.1.2
+   * (c) 2019-2019 hoivee
+   * Released under the MIT License.
+   */
   var rAF = // eslint-disable-next-line @typescript-eslint/strict-boolean-expressions
   window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || function (callback) {
     window.setTimeout(callback, 1000 / 60);

@@ -20,6 +20,6 @@
   "author": "hoivee",
   "license": "ISC",
   "dependencies": {
-    "pure-logic-scroller": "^0.1.0"
+    "pure-logic-scroller": "^0.1.2"
   }
 }
